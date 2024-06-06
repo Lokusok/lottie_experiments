@@ -1,16 +1,12 @@
+import SimpleAnim from "@/components/simple-anim";
+import ScrollAnim from "@/components/scroll-anim";
+import Center from "@/ui/center";
+
 export default function Home() {
-  const posts = [
-    {
-      id: 1,
-      title: 'Article 1',
-    },
-    {
-      id: 2,
-      title: 'Article 2',
-    }
-  ]
-
   return (
-
+    <>
+      <ScrollAnim />
+      <SimpleAnim />
+    </>
   );
 }
